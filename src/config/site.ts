@@ -1,3 +1,7 @@
+import logoImg from "../assets/images/vercy_logo.jpg";
+import heroImg from "../assets/images/vercy_hero.jpg";
+import bgImg from "../assets/images/vercy_bg.jpg";
+
 export const SITE_CONFIG = {
   name: "Vercy SMP",
   tagline: "Survival Economy Server",
@@ -15,9 +19,9 @@ export const SITE_CONFIG = {
 
   // Assets
   assets: {
-    logo: "/src/assets/images/vercy_logo.jpg",
-    hero: "/src/assets/images/vercy_hero.jpg",
-    bg: "/src/assets/images/vercy_bg.jpg",
+    logo: logoImg,
+    hero: heroImg,
+    bg: bgImg,
   },
 
   // Features
